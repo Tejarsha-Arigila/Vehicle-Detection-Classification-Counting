@@ -15,7 +15,7 @@
   - `yolo.cfg`: YOLO model configuration file.
   - `yolo.weights`: YOLO model weights.
   - `coco.names`: List of classes that the model can detect.
-  > Download [`MODEL`](https://drive.google.com/file/d/1qTdvxKKP4K9u5GJrffufSx6cpR1AmLoz/view?usp=sharing)
+  > The Model folder is empty in this repository. Download the folder containing contents from [here](https://drive.google.com/file/d/1qTdvxKKP4K9u5GJrffufSx6cpR1AmLoz/view?usp=sharing)
 - `VIDEO/`: Directory containing test video.
   - `video2.mp4`: Sample video for testing.
 
