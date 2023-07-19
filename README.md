@@ -12,7 +12,7 @@
 2. `utils.py`: Contains utility functions and classes that help in the vehicle detection and counting process.
 3. `config.py`: Configuration file that houses parameters such as paths to models, video input, font settings, and thresholds.
 
-## How to Use:
+## How to Run:
 
 1. Clone this repository.
 2. Install the necessary libraries using the `requirements.txt` file.
@@ -28,9 +28,10 @@
 
 ## Features:
 
-- Real-time vehicle detection using the YOLOv4 model.
+- Real-time vehicle detection using the **YOLOv4 model**.
 - Uses the Euclidean distance to track vehicles.
 - Ability to set the counting line's position with a double click.
+- **Non-Max Suppression (NMS)** to ensure accurate detection by reducing overlapping bounding boxes.
 - Displays vehicle counts categorized as Car, Motorbike, Bus, and Truck.
 
 ## Configurations:
