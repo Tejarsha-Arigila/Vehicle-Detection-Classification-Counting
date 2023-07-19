@@ -16,4 +16,33 @@
 
 1. Clone this repository.
 2. Install the necessary libraries using the `requirements.txt` file.
+
 ```shell pip install -r requirements.txt```
+
+3. Set your video path and other configurations in the `config.py` file.
+4. Run the `main.py` script:
+
+   ```shell python main.py```
+
+5. In the displayed window, double-click to set the position of the middle line. The script will count the vehicles crossing the set lines and display the count in real-time.
+
+## Features:
+
+- Real-time vehicle detection using the YOLOv4 model.
+- Uses the Euclidean distance to track vehicles.
+- Ability to set the counting line's position with a double click.
+- Displays vehicle counts categorized as Car, Motorbike, Bus, and Truck.
+
+## Configurations:
+
+- `VIDEO_PATH`: Path to the video file.
+- `INPUT_SIZE`: Input size for the YOLO model.
+- `CONFIDENCE_THRESHOLD`: Confidence threshold for YOLO detection.
+- `NMS_THRESHOLD`: Non-max suppression threshold.
+- `FONT_COLOR`, `FONT_SIZE`, `FONT_THICKNESS`: Font settings for the displayed text.
+- `CLASSES_FILE`: Path to the classes file for YOLO.
+- `REQUIRED_CLASS_INDEX`: Index of required classes from the classes file.
+- `MODEL_CONFIG`: Path to the YOLO configuration file.
+- `MODEL_WEIGHTS`: Path to the YOLO weights file.
+
+Make sure to configure these appropriately in the `config.py` file to suit your requirements.   
