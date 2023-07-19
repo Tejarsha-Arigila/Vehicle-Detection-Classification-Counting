@@ -1,18 +1,18 @@
 # Vehicle Detection, Classification and Counting using OpenCV
 
 ## Table of Contents
-1. [Files in the Repository](#files-in-the-repository)
-2. [How to Use](#how-to-use)
+1. [Repository Contents](#repository-contents)
+2. [Usage](#usage)
 3. [Features](#features)
-4. [Configurations](#configurations)
+4. [Configuration Parameters](#configurations-parameters)
 
-## Files in the Repository:
+## Repository Contents:
 
-1. `main.py`: The primary script to run the vehicle counter.
-2. `utils.py`: Contains utility functions and classes that help in the vehicle detection and counting process.
-3. `config.py`: Configuration file that houses parameters such as paths to models, video input, font settings, and thresholds.
+1. `main.py`: Main script for running the vehicle counter.
+2. `utils.py`: Utility functions and classes aiding in vehicle detection and counting.
+3. `config.py`: Stores parameters like model paths, video input, font settings, and thresholds.
 
-## How to Run:
+## Usage:
 
 1. Clone this repository.
 2. Install the necessary libraries using the `requirements.txt` file.
@@ -21,24 +21,24 @@
    pip install -r requirements.txt
    ```
 
-3. Set your video path and other configurations in the `config.py` file.
+3. Configure video path and other parameters in `config.py` file.
 4. Run the `main.py` script:
 
    ```shell
    python main.py
    ```
 
-6. In the displayed window, double-click to set the position of the middle line. The script will count the vehicles crossing the set lines and display the count in real-time.
+5. In the opened window, double-click to set the counting line's position. The script will then count and display vehicles crossing the line in real-time.
 
 ## Features:
 
 - Real-time vehicle detection using the **YOLOv4 model**.
-- Uses the Euclidean distance to track vehicles.
-- Ability to set the counting line's position with a double click.
-- **Non-Max Suppression (NMS)** to ensure accurate detection by reducing overlapping bounding boxes.
-- Displays vehicle counts categorized as Car, Motorbike, Bus, and Truck.
+- Euclidean distance-based vehicle tracking.
+- Interactive counting line positioning with a mouse double-click.
+- **Non-Max Suppression (NMS)** for reducing bounding box overlaps.
+- Displays categorized vehicle counts: Car, Motorbike, Bus, Truck.
 
-## Configurations:
+## Configurations Parameters:
 
 - `VIDEO_PATH`: Path to the video file.
 - `INPUT_SIZE`: Input size for the YOLO model.
@@ -50,4 +50,4 @@
 - `MODEL_CONFIG`: Path to the YOLO configuration file.
 - `MODEL_WEIGHTS`: Path to the YOLO weights file.
 
-Make sure to configure these appropriately in the `config.py` file to suit your requirements.   
+> Adjust these parameters in 'config.py' as per need.   
