@@ -7,8 +7,9 @@
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
 
-https://github.com/Tejarsha-Arigila/Vehicle-Detection-Classification-Counting/assets/127797867/0e8f53a4-d1c0-4c69-92c2-6e22b8654c84
-
+<p align = center>
+  https://github.com/Tejarsha-Arigila/Vehicle-Detection-Classification-Counting/assets/127797867/0e8f53a4-d1c0-4c69-92c2-6e22b8654c84
+</p>
 
 📌 Jump straight to:
 - [Repository Contents](#repository-contents)
