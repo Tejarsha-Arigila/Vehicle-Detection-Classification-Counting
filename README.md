@@ -6,9 +6,8 @@
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
-
-<p align = center>
-  https://github.com/Tejarsha-Arigila/Vehicle-Detection-Classification-Counting/assets/127797867/0e8f53a4-d1c0-4c69-92c2-6e22b8654c84
+<p align="center">
+  <img src="https://github.com/Tejarsha-Arigila/Vehicle-Detection-Classification-Counting/blob/main/DEMO.gif" alt="Demo Output">
 </p>
 
 📌 Jump straight to:
