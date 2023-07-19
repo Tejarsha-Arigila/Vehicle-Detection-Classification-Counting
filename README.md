@@ -14,11 +14,9 @@
 - 🛠 `utils.py`: Houses utility functions and classes for vehicle operations.
 - ⚙️ `config.py`: Manages parameters such as model paths, video input, and display settings.
 
-- 📦 `MODEL/`: (Empty in this repo - download separately)
-  - 🧠 `yolo.cfg`: YOLO model config.
+- 📦 `MODEL/`: (`yolov4.weights` missing in this repo - [download](https://drive.google.com/file/d/1qTdvxKKP4K9u5GJrffufSx6cpR1AmLoz/view?usp=sharing))
+  - 🧠 `yolov4.cfg`: YOLO model config.
   - 🔖 `coco.names`: Recognizable classes by the model.
-
-  > ❗ **NOTE**: The `MODEL` folder doesn't contain the weights due  size limitation. Get it [here](https://drive.google.com/file/d/1qTdvxKKP4K9u5GJrffufSx6cpR1AmLoz/view?usp=sharing).
 
 - 🎥 `VIDEO/`:
   - 📹 `video2.mp4`: A test sample.
