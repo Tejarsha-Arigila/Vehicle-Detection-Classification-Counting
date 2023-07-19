@@ -6,15 +6,21 @@
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
-<p align="center">
-  <img src="https://github.com/Tejarsha-Arigila/Vehicle-Detection-Classification-Counting/blob/main/DEMO.gif" alt="Demo Output">
-</p>
 
 📌 Jump straight to:
+- [Demo](#demo)
 - [Repository Contents](#repository-contents)
 - [Usage](#usage)
 - [Features](#features)
 - [Configuration Parameters](#configurations-parameters)
+
+---
+
+## 🎥 Demo
+
+<p align="center">
+  <img src="https://github.com/Tejarsha-Arigila/Vehicle-Detection-Classification-Counting/blob/main/DEMO.gif" alt="Demo Output">
+</p>
 
 ---
 
