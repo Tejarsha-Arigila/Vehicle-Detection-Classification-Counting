@@ -17,14 +17,18 @@
 1. Clone this repository.
 2. Install the necessary libraries using the `requirements.txt` file.
 
-```shell pip install -r requirements.txt```
+   ```shell 
+   pip install -r requirements.txt
+   ```
 
 3. Set your video path and other configurations in the `config.py` file.
 4. Run the `main.py` script:
 
-   ```shell python main.py```
+   ```shell
+   python main.py
+   ```
 
-5. In the displayed window, double-click to set the position of the middle line. The script will count the vehicles crossing the set lines and display the count in real-time.
+6. In the displayed window, double-click to set the position of the middle line. The script will count the vehicles crossing the set lines and display the count in real-time.
 
 ## Features:
 
