@@ -11,6 +11,12 @@
 1. `main.py`: Main script for running the vehicle counter.
 2. `utils.py`: Utility functions and classes aiding in vehicle detection and counting.
 3. `config.py`: Stores parameters like model paths, video input, font settings, and thresholds.
+4. `MODEL/`: Directory containing YOLO model configuration, weights, and class names.
+  - `yolo.cfg`: YOLO model configuration file.
+  - `yolo.weights`: YOLO model weights.
+  - `coco.names`: List of classes that the model can detect.
+5. `VIDEO/`: Directory containing test video.
+  - `video2.mp4`: Sample video for testing.
 
 ## Usage:
 
